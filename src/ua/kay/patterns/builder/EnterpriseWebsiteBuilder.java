@@ -2,7 +2,7 @@ package ua.kay.patterns.builder;
 
 public class EnterpriseWebsiteBuilder extends WebSiteBuilder {
     @Override
-    void biuldName() {
+    void buildName() {
         website.setName("Enterprise website");
     }
 

@@ -7,7 +7,7 @@ public abstract class WebSiteBuilder {
         website = new Website();
     }
 
-    abstract void biuldName();
+    abstract void buildName();
     abstract void buildCms();
     abstract void buildPrice();
 

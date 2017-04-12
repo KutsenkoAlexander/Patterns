@@ -2,7 +2,7 @@ package ua.kay.patterns.builder;
 
 public class VisitCardWebsiteBuilder extends WebSiteBuilder {
     @Override
-    void biuldName() {
+    void buildName() {
         website.setName("Visit card");
     }
 

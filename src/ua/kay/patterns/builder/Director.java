@@ -9,7 +9,7 @@ public class Director {
 
     Website buildWebsite() {
         builder.createWebsite();
-        builder.biuldName();
+        builder.buildName();
         builder.buildCms();
         builder.buildPrice();
         return builder.getWebsite();
