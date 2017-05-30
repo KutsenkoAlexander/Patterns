@@ -6,7 +6,7 @@ import java.util.Map;
 public class DeveloperFactory {
     private static final Map<String, Developer> developers = new HashMap<>();
 
-    public Developer getDeveloperBySpecialisty(String speciality) {
+    public Developer getDeveloperBySpeciality(String speciality) {
          Developer developer = developers.get(speciality);
          if (developer == null) {
              switch (speciality) {

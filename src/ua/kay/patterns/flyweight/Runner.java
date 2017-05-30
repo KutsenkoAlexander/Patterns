@@ -9,20 +9,20 @@ public class Runner {
 
         List<Developer> developers = new LinkedList<>();
 
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
+        developers.add(developerFactory.getDeveloperBySpeciality("java"));
 
-        developers.add(developerFactory.getDeveloperBySpecialisty("c++"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("c++"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("c++"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("c++"));
-        developers.add(developerFactory.getDeveloperBySpecialisty("c++"));
+        developers.add(developerFactory.getDeveloperBySpeciality("c++"));
+        developers.add(developerFactory.getDeveloperBySpeciality("c++"));
+        developers.add(developerFactory.getDeveloperBySpeciality("c++"));
+        developers.add(developerFactory.getDeveloperBySpeciality("c++"));
+        developers.add(developerFactory.getDeveloperBySpeciality("c++"));
 
         for (Developer developer : developers) {
             developer.writeCode();
