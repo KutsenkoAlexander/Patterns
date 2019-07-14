@@ -1,11 +1,11 @@
 package ua.kay.patterns.adapter;
 
 public interface Database {
-    public void insert();
+    void insert();
 
-    public void update();
+    void update();
 
-    public void select();
+    void select();
 
-    public void remove();
+    void remove();
 }
